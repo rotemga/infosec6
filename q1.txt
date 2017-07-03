@@ -1,0 +1,2 @@
+"pidof antivirus" print the pid of the processe that called 'antivirus'.
+get_antivirus_pid remove spaces.

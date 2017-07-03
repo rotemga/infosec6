@@ -1,0 +1,3 @@
+I found the address of check_if_virus with ida.
+I found the address of is_directory, it's return 0 if it's not directory. When we call to check_if_virus it's always on files that are not directories, so it's always return 0.
+I replaced the address of check_if_virus with the address of is_directory.

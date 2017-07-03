@@ -1,0 +1,7 @@
+In q2.c file:
+I found the dynamic address of check_if_virus with the gdb.
+I created a new function that doing this code: "MOV EAX,0;RET;" (This function return alyaws 0)
+I used ptrace to put the new function code in the address of check_if_virus.
+
+In q2.py file:
+I replaced all "0x12345678" in the data in q2.template with the pid of the antivirus process.
